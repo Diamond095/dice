@@ -1,0 +1,41 @@
+@import '@/app/styles/main.scss';
+
+.header{
+    width: 87.8%;
+    display: flex;
+    justify-content: space-between;
+    padding: 6.15%;
+    align-items: center;
+}
+
+.logo-element{
+    width: 16.2%;
+}
+.logo{
+    width: 16.2%;
+}
+.wallet-element{
+    background-color: $color-primary;
+    width:16.2%;
+    border-radius: 26.7%;
+    height: 14.1vw;
+}
+.wallet{
+    width:54.3%;
+    padding-top: 24.3%;
+    padding-left: 24%;
+}
+.balance{
+    padding: 10%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.balance-element{
+    display: flex;
+    width:22%;
+    border: solid $color-primary;
+    border-radius: 15px;
+    padding: 5px;
+    height: 8vw;
+    align-items: center;
+}
